@@ -1,0 +1,1 @@
+import{y as e}from"./dates-D1ZgEnKr.js";var t=e();function n({title:e,subtitle:n,action:r}){return(0,t.jsxs)(`div`,{className:`mb-8 flex flex-wrap items-end justify-between gap-4`,children:[(0,t.jsxs)(`div`,{children:[(0,t.jsx)(`h1`,{className:`text-3xl`,children:e}),n&&(0,t.jsx)(`p`,{className:`mt-1.5 max-w-2xl text-sm text-charcoal/65`,children:n})]}),r]})}export{n as t};
