@@ -16,7 +16,7 @@ export const siteConfig = {
     email: 'abdurrahmanaipy@gmail.com',
     phone: '+93 77 091 9175',
     // Digits only, with country code and no "+" or spaces (this is the format wa.me expects).
-    whatsapp: '93700000000',
+    whatsapp: '93770919175',
     address: { en: 'Kabul, Afghanistan (placeholder)' },
   },
 

@@ -73,8 +73,8 @@ export const venue: Venue = {
 
   contact: {
     // PLACEHOLDERS - never use a personal number in a public demo.
-    phone: '+93 70 000 0001',
-    whatsapp: '93700000001', // digits only, with country code (see buildWhatsAppUrl)
+    phone: '+93 77 091 9175', // sample number, not real
+    whatsapp: '93770919175', // digits only, with country code (see buildWhatsAppUrl)
     email: 'events@example.com',
     hours: {
       en: 'Daily, 9:00 - 21:00 (sample hours)',
