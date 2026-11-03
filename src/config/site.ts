@@ -13,8 +13,8 @@ export const siteConfig = {
 
   // CHANGE: PLACEHOLDER contact details. Replace with your real business details before going live.
   contact: {
-    email: 'hello@example.com',
-    phone: '+93 70 000 0000',
+    email: 'abdurrahmanaipy@gmail.com',
+    phone: '+93 77 091 9175',
     // Digits only, with country code and no "+" or spaces (this is the format wa.me expects).
     whatsapp: '93700000000',
     address: { en: 'Kabul, Afghanistan (placeholder)' },
