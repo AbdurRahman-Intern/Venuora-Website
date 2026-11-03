@@ -1,0 +1,56 @@
+/* ---------------------------------------------------------------------------
+   GLOBAL STYLES
+   Fonts are bundled with npm (@fontsource) so they work offline and don't call Google.
+   Noto Sans Arabic covers Arabic, Persian/Dari and Pashto letters (e.g. ټ ډ ړ ږ ښ ڼ ې ۍ).
+   --------------------------------------------------------------------------- */
+@import '@fontsource/playfair-display/500.css';
+@import '@fontsource/playfair-display/600.css';
+@import '@fontsource/playfair-display/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/noto-sans-arabic/400.css';
+@import '@fontsource/noto-sans-arabic/500.css';
+@import '@fontsource/noto-sans-arabic/600.css';
+@import '@fontsource/noto-sans-arabic/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { @apply bg-ivory text-charcoal font-sans antialiased; overflow-x: hidden; }
+  h1, h2, h3, h4 { @apply font-serif text-emerald; }
+
+  /* RTL tuning. Arabic-script text needs more line height, and letter-spacing breaks the
+     joining of letters - so we switch it off for every RTL language. */
+  [dir='rtl'] body { line-height: 1.85; }
+  [dir='rtl'] h1, [dir='rtl'] h2, [dir='rtl'] h3, [dir='rtl'] h4 { line-height: 1.5; font-weight: 700; }
+  [dir='rtl'] * { letter-spacing: 0 !important; }
+
+  /* Visible keyboard focus everywhere (mouse clicks don't show it). */
+  :focus-visible { outline: 2px solid #C5A46D; outline-offset: 3px; border-radius: 4px; }
+
+  /* Respect the OS "reduce motion" setting. */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-7xl px-5 sm:px-8; }
+  .section { @apply py-20 sm:py-28; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.18em] text-gold-dark; }
+  .card { @apply rounded-xl border border-emerald/10 bg-white shadow-soft; }
+  .field { @apply w-full rounded-lg border border-emerald/20 bg-white px-3.5 py-2.5 text-sm text-charcoal placeholder:text-charcoal/40 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/40; }
+  .field-error { @apply border-red-600 focus:border-red-600 focus:ring-red-600/30; }
+  /* Phone numbers, e-mails and URLs must always read left-to-right, even inside Arabic text. */
+  .ltr-text { direction: ltr; unicode-bidi: isolate; display: inline-block; }
+  [dir='rtl'] .ltr-text { text-align: right; }
+  /* Fade-up entrance used by hero content. Disabled automatically by the reduced-motion rule. */
+  .fade-up { animation: fadeUp .8s ease both; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .scroll-target { scroll-margin-top: 5.5rem; } /* keeps anchor targets below the sticky navbar */
+}

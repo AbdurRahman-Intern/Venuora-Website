@@ -1,0 +1,481 @@
+{
+  "common": {
+    "language": "Language",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "all": "All",
+    "back": "Back",
+    "menu": "Menu",
+    "skipToContent": "Skip to content",
+    "contactForPricing": "Contact for pricing",
+    "perNight": "per night",
+    "upTo": "Up to {{count}} guests",
+    "guestsCount_one": "{{count}} guest",
+    "guestsCount_other": "{{count}} guests",
+    "demoBadge": "Demonstration",
+    "sampleData": "Sample data",
+    "reset": "Reset demo data",
+    "actions": "Actions",
+    "status": "Status",
+    "search": "Search",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "optional",
+    "required": "required",
+    "none": "None",
+    "viewAll": "View all",
+    "pageNotFound": "Page not found",
+    "pageNotFoundText": "The page you are looking for does not exist.",
+    "goHome": "Back to home"
+  },
+  "navigation": {
+    "product": "Product",
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "exploreDemo": "Explore demo",
+    "getStarted": "Get started",
+    "backToPlatform": "Back to platform",
+    "venueHome": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "spaces": "Event spaces",
+    "rooms": "Rooms",
+    "packages": "Packages",
+    "availability": "Availability",
+    "inquiry": "Inquiry",
+    "makeInquiry": "Make an inquiry",
+    "dashboardDemo": "Owner dashboard demo",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation"
+  },
+  "marketing": {
+    "meta": {
+      "title": "Premium websites for hotels and event venues",
+      "description": "Showcase your hotel or event venue in English, Arabic, Dari and Pashto, present your facilities and receive booking inquiries."
+    },
+    "hero": {
+      "eyebrow": "For hotels, wedding halls and event venues",
+      "title": "Every Great Venue Deserves a Remarkable Online Presence.",
+      "subtitle": "Showcase your hotel or event venue, present your facilities, and make it easier for customers to explore your services and contact your team.",
+      "ctaPrimary": "Get Your Venue Website",
+      "ctaSecondary": "Explore Live Demo",
+      "caption": "The Grand Emerald, a fictional demonstration venue"
+    },
+    "problem": {
+      "eyebrow": "The challenge",
+      "title": "Great venues lose customers before the first conversation",
+      "subtitle": "Most customers decide who to contact after a few minutes online. Here is what usually gets in the way, and what changes.",
+      "before": "Without a website",
+      "after": "With Venuora",
+      "items": {
+        "noWebsite": { "problem": "No professional website", "solution": "A branded website that reflects the quality of your venue." },
+        "photos": { "problem": "Photos scattered across social media", "solution": "A curated gallery with full-screen viewing." },
+        "packages": { "problem": "Facilities and packages are unclear", "solution": "Clear pages for spaces, rooms and packages." },
+        "repeated": { "problem": "The same questions, again and again", "solution": "Answers, capacities and facilities are published up front." },
+        "inquiries": { "problem": "Inquiries get lost in calls and chats", "solution": "One structured inquiry form with all details included." },
+        "availability": { "problem": "Customers cannot see which dates are open", "solution": "An availability calendar that shows free and unavailable dates." }
+      }
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything a venue needs to be found and contacted",
+      "subtitle": "Each feature is labelled honestly, so you always know what works today and what runs on sample data in this demo.",
+      "status": {
+        "available": "Available",
+        "demo": "Demo only",
+        "planned": "Planned"
+      },
+      "items": {
+        "website": { "title": "Premium branded websites", "desc": "An elegant website with your name, colours, photographs and story." },
+        "gallery": { "title": "Venue galleries", "desc": "Beautiful photo galleries with a full-screen viewer." },
+        "spaces": { "title": "Rooms and event spaces", "desc": "Show hotel rooms, halls and terraces with capacity and facilities. Show only what you offer." },
+        "packages": { "title": "Packages and facilities", "desc": "Present your packages, services and prices, or invite customers to ask." },
+        "inquiryForm": { "title": "Booking inquiry forms", "desc": "A guided form that adapts to rooms or events. Inquiries are requests, never confirmed bookings." },
+        "availability": { "title": "Availability management", "desc": "Show which dates are free or unavailable. In this demo the calendar uses sample data." },
+        "whatsapp": { "title": "WhatsApp integration", "desc": "A button that opens a WhatsApp chat with your number and a prepared message." },
+        "inquiryMgmt": { "title": "Inquiry management", "desc": "A dashboard to review inquiries and update their status. The demo stores data in your browser only." },
+        "multilingual": { "title": "Multilingual websites", "desc": "English, Arabic, Dari and Pashto, with correct right-to-left layouts." },
+        "responsive": { "title": "Mobile-responsive design", "desc": "Designed first for phones, and light enough for slower connections." }
+      }
+    },
+    "preview": {
+      "eyebrow": "See it in action",
+      "title": "A website your guests will remember",
+      "subtitle": "This is The Grand Emerald, a fictional venue we built to show what your website could look like. Open the full demo and try everything.",
+      "cta": "Open the full demo",
+      "browserLabel": "Preview of The Grand Emerald website. Click to open the demo.",
+      "fictional": "Fictional demonstration venue"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From your details to your first inquiry",
+      "steps": {
+        "one": { "title": "Share your venue details", "desc": "Send us your photos, spaces, packages, contact details and the languages you need." },
+        "two": { "title": "Get a customized website", "desc": "We design your website using your branding, in the languages your customers speak." },
+        "three": { "title": "Start receiving inquiries", "desc": "Customers explore your venue, check dates and contact you by form or WhatsApp." }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Choose the plan that fits your venue",
+      "subtitle": "Every project is scoped together. The final scope, price and timeline are agreed with you before work begins.",
+      "popular": "Most chosen",
+      "cta": "Ask about this plan",
+      "note": "Prices shown are samples or \"contact for pricing\". Hosting, domain names, payment processing and online booking are not included unless agreed in writing.",
+      "plans": {
+        "starter": { "name": "Starter", "desc": "A professional online presence for smaller venues." },
+        "professional": { "name": "Professional", "desc": "A complete showcase with packages and inquiries." },
+        "premium": { "name": "Premium", "desc": "Everything, plus tools to manage inquiries." }
+      },
+      "features": {
+        "premiumWebsite": "Professional venue website",
+        "basicInfo": "Basic venue information",
+        "gallery": "Photo gallery",
+        "contactDetails": "Contact details",
+        "whatsapp": "WhatsApp integration",
+        "everythingStarter": "Everything in Starter",
+        "multiSection": "Multiple pages or sections",
+        "packagesFacilities": "Packages and facilities",
+        "inquiryForm": "Inquiry form",
+        "availabilityDisplay": "Availability display",
+        "basicSeo": "Basic SEO",
+        "everythingProfessional": "Everything in Professional",
+        "dashboard": "Inquiry-management dashboard",
+        "advancedCustomization": "Advanced customization",
+        "extraManagement": "Additional management features",
+        "optionalSupport": "Optional ongoing support"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": {
+        "what": { "q": "What does the platform do?", "a": "It gives hotels and event venues a professional multilingual website where customers can explore facilities, see packages and send inquiries." },
+        "custom": { "q": "How is my website customized?", "a": "You share your photos, text and details. We apply your branding and content, so the site looks like your business and not a template." },
+        "inquiries": { "q": "How do booking inquiries work?", "a": "Customers send a request with their preferred date and details. It is an inquiry, not a confirmed reservation. Your team replies and confirms directly." },
+        "whatsapp": { "q": "Can customers contact us on WhatsApp?", "a": "Yes. A WhatsApp button opens a chat with your number and a prepared message in the customer's language." },
+        "languages": { "q": "Which languages are supported?", "a": "English, Arabic, Dari and Pashto, with correct right-to-left layouts. Venue content can be written in each language." },
+        "mobile": { "q": "Does it work on mobile phones?", "a": "Yes. Every page is designed for phones first and works on tablets and computers." },
+        "maintenance": { "q": "Who maintains the website?", "a": "Maintenance and updates can be arranged as an ongoing support option. The details are agreed per project." },
+        "future": { "q": "What is coming next?", "a": "Planned: secure owner accounts, real availability, online reservations and a marketplace of venues. These are not available yet." }
+      }
+    },
+    "cta": {
+      "title": "Ready to present your venue the way it deserves?",
+      "subtitle": "Tell us about your venue and we will prepare a proposal.",
+      "button": "Get Your Venue Website",
+      "demo": "Explore Live Demo"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your venue",
+      "subtitle": "Write to us or message us on WhatsApp. The contact details below are placeholders.",
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "whatsappMessage": "Hello, I would like to learn more about a website for my venue.",
+      "whatsappButton": "Chat on WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "Premium multilingual websites and inquiry management for hotels, wedding halls and event venues.",
+    "product": "Product",
+    "company": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "placeholderNote": "Placeholder contact details",
+    "copyright": "© {{year}} {{name}}. All rights reserved.",
+    "demoNotice": "The Grand Emerald is a fictional venue. All content, prices and contact details are sample data."
+  },
+  "venue": {
+    "demoBanner": "You are viewing a fictional demonstration venue. All content, prices and availability are sample data.",
+    "metaTitle": "{{name}} | Hotel and event venue",
+    "hero": {
+      "capacity": "Up to {{count}} guests",
+      "explore": "Explore the venue",
+      "inquire": "Make an inquiry",
+      "fictional": "Fictional demonstration venue"
+    },
+    "about": {
+      "eyebrow": "About the venue",
+      "title": "A setting made for your most important days",
+      "facilities": "Facilities",
+      "eventTypes": "Events we host",
+      "hospitality": "Hospitality"
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Spaces to imagine your celebration",
+      "subtitle": "Placeholder illustrations are used in this demo instead of real photographs.",
+      "open": "View image: {{title}}",
+      "viewer": "Image viewer",
+      "previous": "Previous image",
+      "next": "Next image",
+      "counter": "Image {{current}} of {{total}}",
+      "alt": "{{title}} at {{venue}}",
+      "categories": {
+        "hall": "Main hall",
+        "stage": "Wedding stage",
+        "decor": "Decoration",
+        "dining": "Dining",
+        "rooms": "Hotel interiors",
+        "exterior": "Exterior",
+        "conference": "Conference"
+      }
+    },
+    "spaces": {
+      "eyebrow": "Event spaces",
+      "title": "Halls and spaces for every occasion",
+      "capacity": "Capacity",
+      "eventTypes": "Suitable for",
+      "packagesAvailable": "Packages available",
+      "inquire": "Inquire about this space"
+    },
+    "rooms": {
+      "eyebrow": "Hotel rooms",
+      "title": "Rest in comfort",
+      "occupancy": "Sleeps up to {{count}}",
+      "beds": "Beds",
+      "from": "From",
+      "sampleNote": "Sample prices for demonstration only.",
+      "checkAvailability": "Check availability"
+    },
+    "packages": {
+      "eyebrow": "Packages",
+      "title": "Packages designed around your event",
+      "sampleNote": "All packages and prices are sample demonstration content.",
+      "includes": "Included facilities",
+      "services": "Services",
+      "inquire": "Ask about this package",
+      "empty": "No packages are currently published.",
+      "emptyHint": "Contact the venue to discuss your event."
+    },
+    "availability": {
+      "eyebrow": "Availability",
+      "title": "Check open dates",
+      "subtitle": "Select a preferred date to start your inquiry.",
+      "demoNotice": "This calendar shows sample demonstration data. It is not real-time availability, and a free date is not a reservation.",
+      "yourDate": "Your preferred date",
+      "noDate": "No date selected yet",
+      "continue": "Continue with this date"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Visit or get in touch",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Opening hours",
+      "map": "View on map",
+      "social": "Follow us",
+      "whatsapp": "Chat on WhatsApp",
+      "whatsappMessage": "Hello {{venue}}, I would like to ask about {{topic}}.",
+      "whatsappTopic": "an event or a stay"
+    },
+    "inquiry": {
+      "eyebrow": "Inquiry",
+      "title": "Tell us about your plans",
+      "subtitle": "Send a request and the team will reply to you. This is an inquiry, not a confirmed reservation.",
+      "kindEvent": "Event",
+      "kindRoom": "Hotel stay",
+      "demoStorage": "Demo mode: your inquiry is saved only in this browser so you can see it in the dashboard demo. It is not sent to any venue. Please do not enter real personal data.",
+      "privacy": "Your details are used only to answer this inquiry. This is a placeholder privacy notice; a real policy must be added before use.",
+      "submit": "Send inquiry",
+      "submitting": "Sending…",
+      "successTitle": "Inquiry received",
+      "successText": "Thank you, {{name}}. In a live website, the venue would now review your request and contact you. Remember: this is an inquiry and not a confirmed reservation.",
+      "viewDashboard": "See it in the dashboard demo",
+      "newInquiry": "Send another inquiry",
+      "failureTitle": "We could not save your inquiry",
+      "failureText": "Your browser blocked local storage. Please try again or contact the venue directly."
+    }
+  },
+  "forms": {
+    "name": "Full name",
+    "phone": "Phone number",
+    "email": "Email",
+    "contactMethod": "Preferred contact method",
+    "eventType": "Event type",
+    "eventDate": "Event date",
+    "checkIn": "Check-in date",
+    "checkOut": "Check-out date",
+    "guests": "Number of guests",
+    "occupants": "Number of guests staying",
+    "selectedItem": "Selected space, room or package",
+    "message": "Additional message",
+    "chooseDate": "Choose a date",
+    "chooseOption": "Choose an option",
+    "noPreference": "No specific choice",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "e.g. +93 70 000 0000",
+    "emailPlaceholder": "name@example.com",
+    "messagePlaceholder": "Tell us anything that will help us prepare",
+    "required": "Required fields are marked with *",
+    "unavailableHint": "Dates marked unavailable in the calendar cannot be selected.",
+    "optionGroups": {
+      "packages": "Packages",
+      "spaces": "Event spaces",
+      "rooms": "Hotel rooms"
+    }
+  },
+  "validation": {
+    "required": "This field is required.",
+    "nameShort": "Please enter your full name.",
+    "phoneInvalid": "Enter a valid phone number (digits, optionally starting with +).",
+    "emailInvalid": "Enter a valid email address.",
+    "emailRequired": "An email is required when email is your preferred contact method.",
+    "dateRequired": "Please choose a date.",
+    "datePast": "The date cannot be in the past.",
+    "dateUnavailable": "This date is not available.",
+    "checkOutAfter": "Check-out must be after check-in.",
+    "stayUnavailable": "Some nights in this period are unavailable.",
+    "guestsInvalid": "Enter a number of guests of at least 1.",
+    "guestsTooMany": "The maximum for your selection is {{max}} guests.",
+    "messageLong": "Please keep your message under {{max}} characters.",
+    "fixErrors": "Please correct the highlighted fields."
+  },
+  "errors": {
+    "storage": "Could not save your changes in this browser.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "availability": {
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "selected": "Selected",
+    "today": "Today",
+    "past": "Past date",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month"
+  },
+  "enums": {
+    "facility": {
+      "wifi": "Wi-Fi", "parking": "Parking", "airConditioning": "Air conditioning", "bridalSuite": "Bridal suite",
+      "stage": "Stage", "soundSystem": "Sound system", "projector": "Projector", "generator": "Backup power",
+      "security": "Security", "prayerRoom": "Prayer room", "garden": "Garden", "lift": "Lift",
+      "breakfast": "Breakfast", "roomService": "Room service", "minibar": "Minibar", "workDesk": "Work desk",
+      "tv": "Television", "laundry": "Laundry", "valet": "Valet parking", "kidsArea": "Children's area"
+    },
+    "service": {
+      "decoration": "Decoration", "catering": "Catering", "buffet": "Buffet", "lighting": "Lighting",
+      "photography": "Photography", "coordinator": "Event coordinator", "welcomeDrinks": "Welcome drinks", "cleanup": "Cleaning"
+    },
+    "eventType": {
+      "wedding": "Wedding", "engagement": "Engagement", "conference": "Conference", "banquet": "Banquet",
+      "birthday": "Birthday", "corporate": "Corporate event", "graduation": "Graduation"
+    },
+    "bed": { "king": "King bed", "queen": "Queen bed", "twin": "Twin bed", "single": "Single bed" },
+    "contactMethod": { "phone": "Phone call", "whatsapp": "WhatsApp", "email": "Email" },
+    "inquiryStatus": { "new": "New", "contacted": "Contacted", "pending": "Pending", "closed": "Closed" },
+    "inquiryKind": { "event": "Event", "room": "Hotel stay" }
+  },
+  "dashboard": {
+    "metaTitle": "Dashboard demo",
+    "demoBanner": "Local demonstration. Data is stored only in this browser. There is no login and no real security. Do not enter real customer data.",
+    "title": "Venue dashboard",
+    "subtitle": "Manage inquiries, packages, availability and details for {{venue}}.",
+    "nav": {
+      "overview": "Overview",
+      "inquiries": "Inquiries",
+      "packages": "Packages",
+      "availability": "Availability",
+      "settings": "Settings",
+      "viewSite": "View public site"
+    },
+    "overview": {
+      "title": "Overview",
+      "sampleLabel": "Sample data",
+      "total": "Total inquiries",
+      "new": "New inquiries",
+      "pending": "Pending",
+      "upcoming": "Upcoming events and stays",
+      "confirmed": "Confirmed bookings",
+      "confirmedValue": "0",
+      "confirmedNote": "Not tracked yet. Inquiries are not reservations.",
+      "recent": "Recent activity",
+      "upcomingList": "Upcoming requested dates",
+      "noRecent": "No activity yet.",
+      "noUpcoming": "No upcoming requests.",
+      "receivedInquiry": "{{name}} sent an inquiry"
+    },
+    "inquiries": {
+      "title": "Inquiries",
+      "searchPlaceholder": "Search by name, phone or email",
+      "filterStatus": "Status",
+      "filterKind": "Type",
+      "customer": "Customer",
+      "contact": "Contact",
+      "service": "Service",
+      "preferredDate": "Preferred date",
+      "received": "Received",
+      "empty": "No inquiries match your filters.",
+      "emptyHint": "Try clearing the search or filters.",
+      "emptyAll": "No inquiries yet.",
+      "emptyAllHint": "Inquiries submitted on the public demo site will appear here.",
+      "stay": "{{from}} to {{to}}",
+      "delete": "Delete inquiry",
+      "deleteTitle": "Delete this inquiry?",
+      "deleteMessage": "The inquiry from {{name}} will be removed from this demo.",
+      "updateStatus": "Update status for {{name}}",
+      "message": "Message",
+      "noMessage": "No message"
+    },
+    "packages": {
+      "title": "Packages",
+      "add": "Add package",
+      "edit": "Edit package",
+      "new": "New package",
+      "name": "Package name",
+      "description": "Description",
+      "capacity": "Guest capacity",
+      "price": "Price (leave empty for contact for pricing)",
+      "currency": "Currency",
+      "includes": "Included facilities",
+      "services": "Services",
+      "active": "Visible on the public site",
+      "hidden": "Hidden",
+      "deleteTitle": "Delete this package?",
+      "deleteMessage": "\"{{name}}\" will be removed from this demo.",
+      "empty": "No packages yet.",
+      "emptyHint": "Add your first package to show it on the public site.",
+      "languageNote": "Fill in each language you have. Missing languages automatically show the English text.",
+      "englishRequired": "An English name is required."
+    },
+    "availability": {
+      "title": "Availability",
+      "intro": "Click a date to mark it unavailable, or click it again to make it available.",
+      "noteTitle": "Availability is not the same as reservations",
+      "note": "Unavailable dates only tell customers a date is closed. They do not record who booked it. A real reservation system with overlap checks needs a backend.",
+      "count": "{{count}} dates marked unavailable",
+      "count_one": "{{count}} date marked unavailable",
+      "count_other": "{{count}} dates marked unavailable"
+    },
+    "settings": {
+      "title": "Venue settings",
+      "intro": "Edit the details of the demonstration venue. Changes are saved in this browser only.",
+      "business": "Business details",
+      "content": "Language-specific content",
+      "name": "Venue name",
+      "tagline": "Tagline",
+      "description": "Description",
+      "address": "Address",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp number (digits with country code)",
+      "email": "Email",
+      "saved": "Settings saved in this browser.",
+      "resetNote": "Restores the sample inquiries, packages, availability and venue details.",
+      "resetTitle": "Reset all demo data?",
+      "resetMessage": "All changes you made in this demo will be erased and the sample data will return.",
+      "resetDone": "Demo data was reset.",
+      "interfaceNote": "These fields store the venue's own content. Changing the interface language does not change them.",
+      "englishRequired": "The English name is required."
+    }
+  }
+}
