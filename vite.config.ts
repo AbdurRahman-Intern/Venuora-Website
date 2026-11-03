@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react';
 // leave as '/' for normal hosting (Netlify, Vercel, Cloudflare Pages, a domain root).
 export default defineConfig({
   plugins: [react()],
+  base: '/Venuora-Website/',
 });
